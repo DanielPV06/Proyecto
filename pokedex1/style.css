@@ -1,0 +1,74 @@
+
+
+body.poke-container {
+    background-image: url('./img/pokedex.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 500px;
+    background-position-y: -20px;
+    background-color: antiquewhite;
+    /* Ajusta la imagen al tamaño del contenedor */
+}
+
+#pokeImg {
+
+    position: relative;
+    left: 590px;
+    /* right: 0px; */
+    top: 10rem;
+    /* Agrega un borde a la imagen */
+}
+
+#name {
+    font-size: 24px;
+    /* Cambia el tamaño de fuente del encabezado */
+    color: #000000;
+    /* Cambia el color del texto del encabezado */
+    margin-left: 45%;
+    margin-bottom: 20px;
+    position: relative;
+    top: -4rem;
+    /* Agrega un margen a la izquierda para separar el texto de la imagen */
+}
+
+#base_experience{
+    margin-left: 44%;
+    position: relative;
+    top: -4rem;
+}
+
+#poke-tipo{
+    margin-left: 45%;
+    position: relative;
+    top: -2rem;
+}
+
+
+#apiButton {
+    position: absolute;
+    top: 38.4rem;
+    left: 38.6rem;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 30px;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(107, 98, 98);
+}
+
+.input {
+    position: absolute;
+    top: 42.7rem;
+    left: 44.7rem;
+    width: 12.8rem;
+    height: 5.9rem;
+    /* border-radius: 0.5rem; */
+    border: 0px none;
+    border-color: #00000000;
+    color: black;
+    text-align: center;
+    border: none;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0);
+}
+

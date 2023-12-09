@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Pokedex</title>
+</head>
+
+<a href="/pokedex2/index.html" type="button" class="btn btn-dark" style="margin-top: 50px; margin-left: 50px;">Pokedex 2</a>
+
+
+<body class="poke-container">
+
+    <button id="apiButton" onclick="fetchPokemon()">Press</button>
+    <input type="text" id="pokemon-name" placeholder="Ingrese el nombre" class="input" onblur="getVal()" />
+    <pre id="apiData"></pre>
+    <img id="pokeImg" width="15%" height="15%"/>
+    <h3 id="name"></h3>
+    <h4 id="base_experience"></h4>
+    <h3 id="poke-tipo"></h3>
+
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
